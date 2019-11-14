@@ -1,17 +1,16 @@
-# Introduction to Data Lakes Immersion Day Labs
-This GitHub project provides a series of lab exercises which help users learn about Data Lakes on the AWS platform.  The Labs let users explore and analyze the [Amazon Customer Reviews](https://s3.amazonaws.com/amazon-reviews-pds/readme.html) dataset while gaining first-hand experience with AWS services like S3, Glue, Athena, and Redshift - EDITED by Marvin 
+# Introduction to SCT / DMS Immersion Day Labs
+This GitHub project provides a series of lab exercises which help users learn about Schema Conversion Tool (SCT) and Database Migration Services (DMS) on the AWS platform.  This lab uses an Amazon Relational Database Service (RDS) Oracle database as the source database and an Amazon Aurora PostgreSQL database as a target database.  The labs launches an EC2 instance to leverage SCT, Oracle SQL*Developer and pgAdmin.  It provides first-hand experience with AWS services like RDS, SCT, DMS, EC2, VPC and S3.  Please reach out to Marvin Vinson at mavinson@amazon.com for assistance or feedback. 
 
-![Hutzler 571 Banana Slicer](https://m.media-amazon.com/images/S/aplus-media/vc/cdb94420-1192-4a5c-920a-b7328ec99a9f._SR970,300_.jpg)
+![Database Migration Services](setup/images/dmsimage.png)
 
 
 
 ## Labs
 |# |Lab Name |Lab Description |
 |---- |---- | ----|
-|0 |[Lab Setup Instructions](setup/README.md) |Instructions for the account administrator to setup the lab for users |
-|1 |[Building the Data Lake](lab1/README.md) |Building a data lake with S3, Glue, and Athena |
-|2 |[Extending the lake with Data Warehousing](lab2/README.md) |Integrating Redshift into your Data Lake |
-|3 |[Cleanup](cleanup/README.md) |Notes on how to cleanup when you are done with the lab |
+|0 |[Lab Setup Instructions](setup/0-EnvironmentConfiguration.pdf) |Instructions to setup the AWS services |
+|1 |[Convert the Schema with SCT](lab1/1-DMS-Lab-Oracle-SCT.pdf) |Convert the RDS Oracle objects to Aurora PostgreSQL |
+|2 |[Migrate the Data with DMS](lab2/2-DMS-Lab-Oracle.pdf) |Migrate the RDS Oracle data to Aurora PostgreSQL |
 
 
 ## License Summary
