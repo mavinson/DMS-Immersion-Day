@@ -1,5 +1,12 @@
 Lab 1 - SCT
 
+SourceEC2PrivateDNS		
+SourceEC2PublicDNS		
+SourceOracleEndpoint		
+TargetAuroraPostgreSQLEndpoint	
+EC2 Windows Password 		
+
+
 Source Endpoint:
 Server Port - 1521
 Oracle SID - ORACLEDB
